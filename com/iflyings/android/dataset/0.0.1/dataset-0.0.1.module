@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.iflyings.android",
+    "module": "dataset",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dataset-0.0.1.aar",
+          "url": "dataset-0.0.1.aar",
+          "size": 41817,
+          "sha512": "f66dfee982868e70bf92ecf1c0cdc045a1a82547ddf4fa69c1ed3f4281fc23b8267eb5881e17e209bb09e08f7598082b2ae59feb3d2a670dacb59904eeea7032",
+          "sha256": "35ab586190383708d32e08e503c8a1d2261e90e08207d292275c9b288bee21bc",
+          "sha1": "955f9fa1f1a70d941ac3464ccb9564ff3752d11c",
+          "md5": "58828450a6fc9f7bcd593f381b68c95e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-ktx",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dataset-0.0.1.aar",
+          "url": "dataset-0.0.1.aar",
+          "size": 41817,
+          "sha512": "f66dfee982868e70bf92ecf1c0cdc045a1a82547ddf4fa69c1ed3f4281fc23b8267eb5881e17e209bb09e08f7598082b2ae59feb3d2a670dacb59904eeea7032",
+          "sha256": "35ab586190383708d32e08e503c8a1d2261e90e08207d292275c9b288bee21bc",
+          "sha1": "955f9fa1f1a70d941ac3464ccb9564ff3752d11c",
+          "md5": "58828450a6fc9f7bcd593f381b68c95e"
+        }
+      ]
+    }
+  ]
+}

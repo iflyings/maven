@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.iflyings.android",
+    "module": "processor",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "processor-0.0.2.jar",
+          "url": "processor-0.0.2.jar",
+          "size": 8630,
+          "sha512": "664fef5d57e5fefe73094d40a18bd62153210d8d77f4144979e5db38f420f2417ff46d467d6aae7c7e6d5367e55b04104c998164a1143639e0188a363195263f",
+          "sha256": "35859a505bb1c1610bb66f251384c43bb39a17d81fc70f825ffc7b01368538dc",
+          "sha1": "4a50ee14a4602b6cf8eabfb80db2491d9fad6d6b",
+          "md5": "e4f384b63e8c37c26d8eae0be30c2997"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.iflyings.android",
+          "module": "component",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "processor-0.0.2.jar",
+          "url": "processor-0.0.2.jar",
+          "size": 8630,
+          "sha512": "664fef5d57e5fefe73094d40a18bd62153210d8d77f4144979e5db38f420f2417ff46d467d6aae7c7e6d5367e55b04104c998164a1143639e0188a363195263f",
+          "sha256": "35859a505bb1c1610bb66f251384c43bb39a17d81fc70f825ffc7b01368538dc",
+          "sha1": "4a50ee14a4602b6cf8eabfb80db2491d9fad6d6b",
+          "md5": "e4f384b63e8c37c26d8eae0be30c2997"
+        }
+      ]
+    }
+  ]
+}

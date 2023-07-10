@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.iflyings.android",
+    "module": "component",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-0.0.2.jar",
+          "url": "component-0.0.2.jar",
+          "size": 17828,
+          "sha512": "1f21b51cdd27534984679ea2f61f5325f44c470c0c1b1971336a86c747282820d65af5919b8bb197b093c24c6d2f4135d0ca0c9cca9f2ce63de738ba68634ee6",
+          "sha256": "ae4c5617b5a1b2e1067da7dde165ce3ab11c863976fe36b491b0a68bfeaed30e",
+          "sha1": "8e916f3850e561ee4712285317d225330aaf6cfb",
+          "md5": "6514402f8dcd2a9fdf2f3fe746bed433"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-0.0.2.jar",
+          "url": "component-0.0.2.jar",
+          "size": 17828,
+          "sha512": "1f21b51cdd27534984679ea2f61f5325f44c470c0c1b1971336a86c747282820d65af5919b8bb197b093c24c6d2f4135d0ca0c9cca9f2ce63de738ba68634ee6",
+          "sha256": "ae4c5617b5a1b2e1067da7dde165ce3ab11c863976fe36b491b0a68bfeaed30e",
+          "sha1": "8e916f3850e561ee4712285317d225330aaf6cfb",
+          "md5": "6514402f8dcd2a9fdf2f3fe746bed433"
+        }
+      ]
+    }
+  ]
+}
